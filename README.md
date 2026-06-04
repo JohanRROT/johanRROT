@@ -1,48 +1,64 @@
-# Hi, I´m Johan Rodriguez 
+# Johan Rodriguez · Data Engineer
 
-## 😄 About me 
+Data Engineer with hands-on experience building end-to-end ETL/ELT pipelines, lakehouse architectures, and data products that drive business decisions. I've designed and shipped data solutions in production at a data marketing agency — from ingestion and transformation to the Power BI dashboards that stakeholders actually use.
 
-I am a passionate data scientist with a focus on extracting valuable insights from large datasets. My main objective is to apply my skills in data analysis and modeling to solve complex problems and aid in evidence-based decision-making.
+Currently based in Europe and open to **remote roles** or **on-site positions in Spain** (open to sponsorship).
 
-## ⚡ Skills 
- - Python
- - SQL
- - Power BI
- - Big data (Hadoop, Spark, Docker, Apache)
- - Machine Learning
- - Data Analyst
- - Data Enginner
- - Data extraction, transformation, and loading
- - Data modeling
- - Data integration and APIs
- - Data visualization
- - Data communication and presentation
+---
 
-## 🔗 Links
-If you are interested in collaborating on data analytics projects or have any questions, feel free to contact me through my email johan.gbc@gmail.com or by visiting my LinkedIn profile.
+## Tech Stack
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/JohanRROT?tab=repositories)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/johan-rodriguez-rojas-2736b4259)
+**Languages & Processing**
 
-## Other
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
-🧠 data analysis, data engineering and machine learning
+**Cloud & Lakehouse**
 
-👨🏻‍💻 Student of systems engineering
+![Azure Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white)
+![ADLS Gen2](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
-🔭 I like scientific research 
+**Orchestration & Tooling**
 
-<!--
-**JohanRROT/johanRROT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-Here are some ideas to get you started:
+**Databases & BI**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+---
+
+## Featured Projects
+
+### Movie History Data Pipeline · Azure Databricks + ADF + Delta Lake
+
+End-to-end batch pipeline that ingests raw movie data (CSV + nested JSON) and delivers a curated analytics layer following the Medallion Architecture (Bronze → Silver → Gold). Orchestrated weekly by Azure Data Factory with parallel execution, pre-flight data validation, and failure alerting. All tables are Delta Lake with ACID transactions and incremental merge-based loads.
+
+> Azure Data Factory · Azure Databricks · Delta Lake · PySpark · ADLS Gen2 · Spark SQL
+
+[![Databricks Repo](https://img.shields.io/badge/Databricks_Notebooks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/JohanRROT/Databricks_movie_history)
+[![ADF Repo](https://img.shields.io/badge/ADF_Orchestration-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://github.com/JohanRROT/adf-movie-history)
+
+---
+
+## Currently
+
+- Preparing for the **Databricks Certified Data Engineer Associate** exam
+- Completing **Lakeflow** learning path (Spark Declarative Pipelines, Jobs, Connect, DevOps)
+- Open to Data Engineer roles in Spain and Europe
+
+---
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/johan-rodriguez-rojas-2736b4259)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johan.gbc@gmail.com)
